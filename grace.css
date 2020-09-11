@@ -1,0 +1,86 @@
+body{
+ max-width: 1920px;
+ max-height: 1080;
+}
+
+.wrapper{
+    background: url("grace.jpg");
+    height: 1080px;
+    width: 1920px;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+   background: rgba(0,0,0,0,4);
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 6px 13px;
+    font-family: 'Roboto,' sans-serif;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background:red;
+    border-radius: 20px;
+}
+.wrapper.center{
+position: relative;
+font-family: sans-serif;
+
+}
+.center h1{
+    position: absolute;
+    color: beige;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 537px;
+    height: 223px;
+    left: 451px;
+    top: 355px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+}
+.center .buttons{
+    position: absolute;
+width: 412px;
+height: 66px;
+left: 514px;
+top: 602px;
+}
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffb3b3;
+    background: red;
+    border: 1px solid #cc0000;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 25px;
+}
+.buttons.btn{
+    margin-left: 25px;
+}
+.buttons button:hover{
+    background: #cc0000
+}
